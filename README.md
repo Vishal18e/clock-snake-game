@@ -1,4 +1,4 @@
-# clock-snake-game
+# Clock-snake-game
 A classical snake game with a clock timer. A working clock has also been integrated in parallel to the game.
 ## Scores
 Highest Score are stored in the local storage of the device.
