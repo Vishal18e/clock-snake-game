@@ -1,5 +1,7 @@
 # clock-snake-game
-A classical snake game with a clock timer.
+A classical snake game with a clock timer. A working clock has also been integrated in parallel to the game.
+## Scores
+Highest Score are stored in the local storage of the device.
 ## Live
 The project can be viewed live at "https://snake-game-timer.herokuapp.com/"
 ## Rules
