@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnaCondA PlAnet</title>
+    <link href="CSS/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="layout">
+    <div class="clock">
+        <div class="circular"></div>
+        <div class="hr"></div>
+        <div class="min"></div>
+        <div class="sec"></div>
+        
+        <div class="rules">
+        <h3>Instructions</h3><br>
+        <ul>
+            <li>Snake should not bump into itself, else Game will be over.</li>
+            <li>Don't collapse with the boundary.</li>
+            <li>If snake moving in specific direction tries to change its direction by 180 degrees, would imply snake bumping 
+                into itself and hence game terminates.</li>
+        </ul>
+
+        </div>
+    </div>
+
+
+
+    <div id="scr">
+        <div id="score">Score:</div>
+        <div id="highScore">Highest Score:</div>
+        <div id="board"></div>
+    </div>
+</div>
+    <script src="JS/motion.js"></script>
+</body>
+</html>

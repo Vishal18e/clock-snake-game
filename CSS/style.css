@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    background-image:url("../back3.jpg");
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: repeat;
+    /* display:flex; */
+    justify-content:center;
+    align-items:center;
+
+}
+#score{
+    position:absolute;
+    top:10px;
+    font-size:40px;
+    right:300px;
+    font-family: 'Pacifico', cursive;
+}
+
+#highScore{
+    position:absolute;
+    top:80px;
+    font-size:50px;
+    color:brown;
+    right:10vmin;
+    font-family: 'Pacifico', cursive;
+}
+
+
+#board{
+    background: linear-gradient(to right ,rgb(153, 238, 153),rgb(241, 205, 85));
+    height:90vmin;
+    width:90vmin;
+    display:grid;
+    grid-template-columns: repeat(24,1fr); 
+    grid-template-rows: repeat(24,1fr); 
+    position:absolute;
+    margin-left:25%;
+    margin-top:1.5%;
+}
+
+.snakeHead{
+    background:linear-gradient(green,black);
+    border:2px solid black;
+    transform:scale(1.02);
+    border-radius:50%;
+}
+
+.snakePart{
+    background:linear-gradient(red,rgb(7, 236, 57));
+    border:2px solid black;
+    transform:scale(1.02);
+    border-radius:30%;
+}
+
+.Food{
+    background:linear-gradient(rgb(220, 245, 1),rgb(64, 24, 245));
+    border:2px solid red;
+    border-radius:20%;
+
+}
+
+.textColor1{
+    color:red;
+}
+
+
+/* Clock styling */
+.layout{
+    position:relative;
+    margin-left: 5vmin;
+ 
+}
+
+.rules{
+    margin-top:50vmin;
+    font-family: 'Pacifico', cursive;
+    line-height: 3vmin;;
+    font-size:20px;
+    color:maroon;
+} 
+
+.clock{
+    height:40vmin;
+    width:40vmin;
+    background:url(../clock7.png);
+    background-repeat:no-repeat;
+    background-size:100% ;
+    margin:auto;
+    float:left;
+    margin-right:10vmin;
+    justify-content: center;
+    margin-top: 10vmin;
+    align-items:center;
+    position:relative;
+}
+
+.hr,.min,.sec{
+    background:linear-gradient(rgb(255, 255, 255),hsl(56, 98%, 50%),white);
+    border-radius:10%;
+    position:absolute;
+}
+
+.circular{
+    background:rgb(133, 124, 124);
+    width:5vmin;
+    height:5vmin;
+    border-radius:50%;
+    margin-left:43.75%;
+    margin-top:43.75%;
+    position:absolute;
+}
+
+.hr{
+    width:6px;
+    height:9vmin;
+    margin:50%;
+    margin-top: 50%;
+    transform-origin: top;
+
+}
+
+.min{
+    width:8px;
+    height:12.5vmin;
+    margin:49.5%;
+    margin-top: 50%;
+    transform-origin: top;
+}
+
+.sec{
+    width:6px;
+    height:15vmin;
+    margin:50%;
+    margin-top: 50%;
+    transform-origin: top;
+}
+
